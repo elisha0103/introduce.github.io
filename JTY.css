@@ -1,0 +1,327 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+/* first screen */
+.information{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 13px;
+
+}
+
+.process{
+    margin-bottom:20px;
+    font-size:large;
+    font-weight:bold;
+    border-color:black;
+    border-style:solid;
+    margin-right:45%;
+    margin-left: 45%;
+}
+.jty{
+    
+    display:inline-block;
+    /* margin-top: 20px; */
+    border: 5px solid rgb(97, 196, 241);;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+
+.jty img{
+    margin-top:5px;
+    border-radius: 50%;
+}
+
+#name{
+    font-size:large;
+    font-weight:bold;
+}
+
+#birth{
+    font-size:medium;
+}
+.personal{
+    margin-top: 20px;
+    display:inline-block;
+    width: 700px;
+    border-top: 2px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 2px solid rgba(128, 128, 128, 0.3);
+    position:relative;
+    height: 100px;
+}
+.personal .left{
+    display:inline-block;
+    position:absolute;
+    left:0%;
+    top:10%;
+    border-right:2px solid rgba(128, 128, 128, 0.3);
+    padding:5px 7px;
+    height:70px;
+    width: 33%;
+}
+
+.personal .left img{
+    position:relative;
+    left:40%;
+    display:block;
+}
+
+.personal .center{
+    display:inline-block;
+    position:absolute;
+    text-align:center;
+    width: 247px;
+    height: 80px;
+    left:33%;
+    top: 10%;
+}
+
+.personal .center img{
+    display:block;
+    left:45%;
+    position:relative;
+    margin: 5px 0px;
+
+}
+.personal .right{
+    display:inline-block;
+    position:absolute;
+    top: 10%;
+    border-left:2px solid rgba(128, 128, 128, 0.3);
+    width: 247px;
+    height:80px;
+    left:66%;
+    
+}
+.personal .right img{
+    display:block;
+    left: 45%;
+    margin:25px 0px;
+    position:relative;
+}
+
+/* .table{
+    background-color: #ffebb5;
+    border-radius: 16px;
+    box-shadow: inset 0 0 8px #deb13a;
+    width: 350px; height: 170px;
+    margin:auto;
+}
+table {
+    margin-left:auto;
+    margin-right:auto;
+    border-collapse: collapse;
+}
+tr{
+    border-top: 1px solid black; border-bottom: 1px solid black;
+}
+
+table, td, th{
+    border-collapse: collapse;
+   
+    
+}
+
+td, th {
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: middle;
+} */
+/* second screen */
+
+.introduce{
+    width: 1000px;
+    border:2px solid rgba(128, 128, 128, 0.3);
+    margin-top: 40px;
+    padding-bottom: 50px;
+    
+    
+}
+.introduce .tab{
+    margin:auto;
+    display:block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    position:relative;
+    height:40px;
+}
+
+.introduce .first{
+    position:absolute;
+    left:0%;
+    display:inline-block;
+    border: 2px solid rgb(76, 76, 255);
+    width:33.3%;
+    height:30px;
+    text-align:center;
+    padding:5px 0px;
+    font-size:large;
+    color:white;
+    background-color:rgb(76, 76, 255);
+}
+
+.introduce .second{
+    position:absolute;
+    left:33.3%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    text-align:center;
+    padding:5px 0px;
+}
+
+.introduce .third{
+    position:absolute;
+    left: 66.6%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    text-align:center;
+    padding:5px 0px;
+}
+.introduce h2{
+    margin-top: 40px;
+    margin-left:100px;
+}
+
+.introduce h3{
+    margin-left: 100px;
+    text-align:left;
+    line-height: 30px;
+    margin-right: 60px;
+    
+}
+
+h3 span{
+    font-size:x-large;
+}
+
+.scroll-img{
+    padding-top: 50px;
+}
+
+/* third screen */
+
+.plan1, .plan2{
+    width: 1000px;
+    border:2px solid rgba(128, 128, 128, 0.3);
+    margin-top: 40px;
+    padding-bottom: 50px;
+    margin-left:40px;
+    margin-right:40px;
+}
+/* .plan h2{
+    text-align:left;
+    top: 0;
+    left: 0;
+    display:inline-block;
+    background-color:rgba(255, 140, 0, 0.2);
+    border-radius:30%;
+} */
+
+/* third screen / forth screen */
+h4{
+    margin-top:40px;
+    width: 1000px;
+    margin-bottom: 100px;
+    line-height: 40px;
+    vertical-align:middle;
+    margin-left: 10px;
+}
+
+h4 span{
+    font-size:large;
+    font-weight:bolder;
+}
+.plan1 .tab{
+    margin:auto;
+    display:block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    position:relative;
+    height:40px;
+}
+
+.plan1 .first{
+    position:absolute;
+    left:0%;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    width:33.3%;
+    height:30px;
+    text-align:center;
+    padding:5px 0px;
+    font-size:large;
+    color:black;
+    
+}
+
+.plan1 .second{
+    position:absolute;
+    left:33.3%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgb(76, 76, 255);
+    background-color:rgb(76, 76, 255);
+    text-align:center;
+    padding:5px 0px;
+    color: white;
+}
+
+.plan1 .third{
+    position:absolute;
+    left: 66.6%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    text-align:center;
+    padding:5px 0px;
+}
+
+.plan2 .tab{
+    margin:auto;
+    display:block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    position:relative;
+    height:40px;
+}
+
+.plan2 .first{
+    position:absolute;
+    left:0%;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    width:33.3%;
+    height:30px;
+    text-align:center;
+    padding:5px 0px;
+    font-size:large;
+    
+    
+}
+
+.plan2 .second{
+    position:absolute;
+    left:33.3%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgba(128, 128, 128, 0.3);
+    text-align:center;
+    padding:5px 0px;
+}
+
+.plan2 .third{
+    position:absolute;
+    left: 66.6%;
+    width:33.3%;
+    height:30px;
+    display:inline-block;
+    border: 2px solid rgb(76, 76, 255);
+    background-color:rgb(76, 76, 255);
+    text-align:center;
+    padding:5px 0px;
+    color:white;
+}
